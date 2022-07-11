@@ -1,0 +1,119 @@
+.input--submit, 
+.input--button-submit,
+.ui.selection.dropdown {
+    @extend %anim;
+    background-color: #FFF;
+    //border: solid 1px rgba(0,0,0,.15);
+    border: solid 1px #BBC1E1;
+    border-radius: 2px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #BBC1E1;
+
+    &:hover {
+        border-color: #275EFE;
+        background-color: rgba(#000,.05);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #BBC1E1;
+    }
+
+}//-- Submit Input -----
+
+
+.ui {
+
+    &.selection {
+    
+        &.dropdown {
+            width: 100%;
+            padding: 0 70px 0 30px;
+            justify-content: flex-start;
+            min-width: unset;
+
+            .menu {
+
+                > .item {
+                    display: flex;
+                    align-items: center;
+                    height: 60px;
+                    font-size: 1.8rem;
+
+                    &.active {
+                        background-color: $igx-blue;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .dropdown.icon {
+        display: none;
+    }
+
+    &:after {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 10px solid #8c92af;
+        z-index: 202;
+    }//-- Arrow -----
+
+    &.button {
+
+        &:after {
+            display: none;
+        }
+    }
+
+    &.multiple {
+
+        &.search {
+
+            &.dropdown {
+
+                > .text {
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    height: 60px;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    &.search {
+
+        &.selection {
+    
+            &.dropdown {
+
+                > input.search {
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    height: 60px;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+@mixin placeholder {
+   &::-webkit-input-placeholder {@content};
+        &:-ms-input-placeholder {@content};
+            &::-moz-placeholder {@content};
+             &:-moz-placeholder {@content};
+}
+
+@mixin select-reset {
+    text-indent: 1px;
+    text-overflow: '';
+    -webkit-appearance: none;
+       -moz-appearance: none;
+}
+
+@mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    transition: background-size cubic-bezier(0,.5,0,1) 0.3s;
+    position: relative;
+
+    &:hover {
+        text-decoration: none;
+        background-size: 0% 2px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+@mixin hover {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size cubic-bezier(0,.5,0,1) 0.3s;
+    position: relative;
+
+    &:hover {
+        text-decoration: none;
+        background-size: 100% 2px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.underline {
+    @include underline;
+}
+
+.hover {
+    @include hover;
+}

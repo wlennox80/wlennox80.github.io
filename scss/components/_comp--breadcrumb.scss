@@ -1,0 +1,24 @@
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+
+    li {
+        margin-right: 10px;
+
+        &:after {
+            content: '/';
+            display: inline-block;
+        }
+
+        &:last-of-type {
+
+            &:after {
+                display: none;
+            }
+        }
+
+        a {
+            @include hover;
+        }
+    }
+}

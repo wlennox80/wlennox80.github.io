@@ -1,0 +1,19 @@
+.page--trays {
+
+    .background-image {
+
+        &--dramatic {
+            max-height: 500px;
+        }
+    }
+
+    .faux-main {
+        padding-left: 0;
+        padding-right: 0;
+
+        .tray {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}

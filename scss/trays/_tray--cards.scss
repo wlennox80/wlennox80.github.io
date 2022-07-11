@@ -1,0 +1,28 @@
+.tray--cards {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+//-- Breaks -------------------------------------
+@include md {
+    
+    .tray--cards {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        
+    }
+    
+    
+}//-- MD Break -----
+
+
+@include lg {
+    
+    
+    
+}//-- LG Break -----

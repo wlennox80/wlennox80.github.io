@@ -1,0 +1,89 @@
+.input-time-style-wrapper {
+    position: relative;
+
+    label {
+        display: none;
+    }
+
+    .faux-date-picker-button {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        background-color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 27px;
+        pointer-events: none;
+        font-size: 2.5rem;
+
+        i {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .faux-time-input-placeholder {
+        @extend %anim;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30px;
+        pointer-events: none;
+        background-color: #fff;
+        opacity: 1;
+    }
+}//-- Input Date Style Wrapper -----
+
+.input--time {
+    @extend %anim;
+    background-color: #FFF;
+    border: solid 1px #BBC1E1;
+    border-radius: 2px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 0 0 #BBC1E1;
+
+    &:hover {
+        border-color: #275EFE;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #BBC1E1;
+    }
+
+    &::before {
+    	content: attr(data-placeholder);
+    	width: 100%;
+    }
+
+    &:focus,
+    &:valid {
+
+        &:before {
+            display: none;
+        }
+
+        + .faux-time-input-placeholder {
+                opacity: 0;
+        }
+    }
+}//-- Date Input -----
+
+//-- IE Only ------------------------------------
+ @media all and (-ms-high-contrast:none){
+
+    .input-time-style-wrapper {
+
+        .faux-date-picker-button {
+            display: none;
+        }
+    }
+}//-- IE Only ------

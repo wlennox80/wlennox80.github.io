@@ -1,0 +1,171 @@
+.button {
+    @extend %anim;
+    border-radius: 3px;
+    background-color: #FFF;
+    border: solid 1px #BBC1E1;
+    border-radius: 2px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #BBC1E1;
+    font-size: 1.8rem;
+    width: 100%;
+    color: #0073bb;
+
+    &:hover {
+        border-color: #275EFE;
+        background-color: rgba(#000,.05);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #BBC1E1;
+    }
+
+
+    &--copy-code {
+        @extend %anim;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: 0;
+        background-color: rgba(#000,0);
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: auto;
+        height: auto;
+        font-size: 1.5rem;
+
+        &:hover {
+            background-color: $igx-blue;
+            color: #fff;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }//-- Copy Code Button -----
+
+    &--black-coral {
+        background-color: #495867;
+        border-color: #495867;
+        color: #fff;
+
+        &:hover {
+            background-color: darken(#495867,5);
+            border-color: #495867;
+            color: #fff;
+        }
+    }
+
+    &--persian-orange {
+        background-color: #c18c5d;
+        border-color: #c18c5d;
+        color: #fff;
+
+        &:hover {
+            background-color: darken(#c18c5d,5);
+            border-color: #c18c5d;
+            color: #fff;
+        }
+    }
+
+    &--new-your-pink {
+        background-color: #ce796b;
+        border-color: #ce796b;
+        color: #fff;
+
+        &:hover {
+            background-color: darken(#ce796b,5);
+            border-color: #ce796b;
+            color: #fff;
+        }
+    }
+
+    &--melon {
+        background-color: #e7ad99;
+        border-color: #e7ad99;
+        color: #000;
+
+        &:hover {
+            background-color: darken(#e7ad99,5);
+            border-color: #e7ad99;
+            color: #000;
+        }
+    }
+
+    &--desert-sand {
+        background-color: #ecc8af;
+        border-color: #ecc8af;
+        color: #000;
+
+        &:hover {
+            background-color: darken(#ecc8af,5);
+            border-color: #ecc8af;
+            color: #000;
+        }
+    }
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+
+    .button {
+        margin-bottom: 20px;
+        margin-right: 20px;
+
+        &:last-of-type {
+            margin-left: 0;
+        }
+    }
+}
+
+.ui.button.button--reset {
+    @extend %anim;
+    border-radius: 3px;
+    background-color: #FFF;
+    border: solid 1px #BBC1E1;
+    border-radius: 2px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #BBC1E1;
+    font-size: 1.8rem;
+
+    &:hover {
+        border-color: #275EFE;
+        background-color: rgba(#000,.05);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #BBC1E1;
+    }
+}
+
+//-- Breaks -------------------------------------
+@include lg {
+    
+    .button-group {
+        flex-direction: row;
+
+        .button {
+            margin-bottom: 20px;
+        }
+    }
+    
+}//-- LG Break -----

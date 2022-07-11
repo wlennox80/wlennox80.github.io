@@ -1,0 +1,14 @@
+.image {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    &--centered {
+        position: relative;
+
+        img {
+            @include center;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+#search-form {
+    position: relative;
+
+    .submit-search-wrapper {
+        @extend %anim;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 100%;
+
+        .input--submit-search {
+            border: 0;
+            background-color: transparent;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            position: relative;
+            cursor: pointer;
+        }
+
+        i {
+            @extend %anim;
+            pointer-events: none;
+            font-size: 2rem;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &:hover {
+            background-color: rgba(#000, .05);
+
+            i {
+                color: $igx-blue;
+            }
+        }
+    }
+
+    .input--submit {
+        margin-top: 30px;
+    }
+
+}//-- Search Form
+
+.input--search {
+    @extend %anim;
+    background-color: #FFF;
+    border: solid 1px #BBC1E1;
+    border-radius: 2px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 70px;
+    box-shadow: 0 0 0 0 #BBC1E1;
+
+    &:hover {
+        border-color: #275EFE;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #BBC1E1;
+    }
+
+    &::before {
+    	content: attr(data-placeholder);
+    	width: 100%;
+    }
+
+    &:focus,
+    &:valid {
+
+        &:before {
+            display: none;
+        }
+
+        + .faux-date-input-placeholder {
+                opacity: 0;
+        }
+    }
+}//-- Search Input -----

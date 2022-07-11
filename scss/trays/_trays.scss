@@ -1,0 +1,45 @@
+.tray {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &--nav,
+    &--banner,
+    &--footer {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &:nth-child(even) {
+        background-color: rgba(#000,.05);
+    } 
+    
+    &:not(.tray--footer){
+
+        &:nth-last-child(1):nth-child(odd) {
+            padding-bottom: 0;
+        }
+
+        &:nth-last-child(1):nth-child(even) {
+            margin-bottom: -50px;
+        }
+    }
+
+    &--underline {
+        box-shadow: 0 1px 0 $border;
+    }
+
+    &--flush {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        &-top {
+            padding-top: 0;
+        }
+
+        &-bottom {
+            padding-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.comp-blockquote {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px $border;
+    overflow: hidden;
+
+    blockquote {
+        width: 90%;
+
+        p {
+            quotes: "“" "”" "‘" "’";
+            text-align: center;
+            position: relative;
+
+            &:before,
+            &:after {
+                font-family: Lucida Bright,Georgia,serif; 
+                font-size: 40rem;
+                position: absolute;
+                opacity: 0.15;
+            }
+
+            &:before {
+                content: open-quote;
+                top: 100px;
+                left: 0;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    figcaption {
+        margin-left: auto;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #adacac;
+    }
+}
+
+//-- Breaks -------------------------------------
+@include md {
+    
+    .comp-blockquote {
+
+        blockquote {
+            width: 80%;
+        }
+    }
+    
+}//-- MD Break -----

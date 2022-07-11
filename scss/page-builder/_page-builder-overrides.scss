@@ -1,0 +1,33 @@
+html {
+    
+    .pageBuilderLayout {
+
+        .row {
+            padding: unset;
+            margin-left: -15px;
+            margin-right: -15px;
+            margin-top: unset;
+            margin-bottom: unset;
+
+            & [class*="col-md-"],
+            & [class*="col-sm-"],
+            & [class*="col-xs-"] {
+
+                &:first-child {
+                    margin-left: unset;
+                }
+            }
+
+            & [class*="col-sm-"] {
+                margin-left: unset;
+            }
+
+            .pagePresentationLayoutColumn {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+}

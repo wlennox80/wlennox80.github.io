@@ -1,0 +1,24 @@
+.input--text {
+    @extend %anim;
+    background-color: #FFF;
+    border: solid 1px #BBC1E1;
+    border-radius: 2px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 0 0 #BBC1E1;
+
+    &:hover {
+        border-color: #275EFE;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #BBC1E1;
+    }
+}//-- Text Input -----

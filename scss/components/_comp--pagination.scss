@@ -1,0 +1,65 @@
+.igx-pagination {
+    display: flex;
+    align-items: center;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px $border;
+        margin-right: -1px;
+
+        &:first-of-type {
+            border-radius: 4px 0 0 4px;
+        }
+
+        &:last-of-type {
+            border-radius: 0 4px 4px 0;
+        }
+
+        &.disabled {
+
+            .igx-pagination__item_link {
+                opacity: 0.5;
+                pointer-events: none;
+            }
+        }
+
+        &.current {
+            background-color: $igx-blue;
+            pointer-events: none;
+
+            .igx-pagination__item_link {
+                color: #fff;
+            }
+        }
+
+        &_link,
+        .bi-three-dots {
+            @extend %anim;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 40px;
+            height: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            &:hover {
+                background-color: rgba(#000,.05);
+            }
+        }
+
+        .bi-three-dots {
+            pointer-events: none;
+        }
+    }
+
+    &.align-center {
+        justify-content: center;
+    }
+
+    &.align-right {
+        justify-content: flex-end;
+    }
+}
