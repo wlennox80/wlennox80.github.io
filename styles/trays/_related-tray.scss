@@ -1,0 +1,59 @@
+
+.tray-related{
+	position: relative;
+	z-index: 1;
+
+	.card{
+		border: unset;
+		border-bottom: 1px solid $light-periwinkle;
+		border-radius: 0;
+
+	}
+
+	h3{
+		margin-top: 64px;
+		margin-bottom: 32px;
+	}
+
+}
+
+
+.right-arrow{
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+
+.-min {
+	font-size: 24px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.67;
+	letter-spacing: -0.34px;
+	color: #5b6b80;
+	margin-top: 16px;
+}
+
+.card-body{
+	padding: 20px 0;
+}
+
+.grow-title{
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -0.13px;
+    color: #25273a;
+    margin-bottom: 8px;
+}
+
+
+// .embed-responsive{
+// 	margin-bottom: 50px;
+// }
+
+//Breaks
+//-----------------------------------------------

@@ -1,0 +1,55 @@
+.igx-arrow{
+    color: #231f20;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &--right{
+     right: 0;
+     margin-right: 15px;
+    }
+}
+
+//Breaks
+//-----------------------------------------------
+
+@include md {
+	.igx-arrow{
+		font-size: 40px;
+
+    	&--right{
+     	margin-right: 0px;
+    	}
+
+    	&--left{
+    		margin-left: -13px;
+    	}
+	}
+}
+
+@include lg {
+	.igx-arrow{
+
+    	&--right{
+     	margin-right: 6px;
+    	}
+
+    	&--left{
+    		margin-left: -10px;
+    	}
+	}
+}
+
+@include xl {
+	.igx-arrow{
+
+    	&--right{
+     	margin-right: 67px;
+    	}
+
+    	&--left{
+    		margin-left: 50px;
+    	}
+	}
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="307px" height="80px" viewBox="0 0 307 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>default</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="303" height="76" rx="3"></rect>
+        <filter x="-1.2%" y="-3.3%" width="102.3%" height="109.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.101137908 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M8.73818182,2.04133347 C10.6360948,0.941970378 13.190958,7.39773739e-16 16.3738145,0 C23.611037,-3.3642152e-15 27.422713,4.9238864 27.8068162,5.44638564 L30.5732748,2.6120061 L30.7281895,14.7091284 L18.8619963,14.6108153 L22.6916846,10.687102 C22.3492398,10.1870513 20.4366677,7.65518314 16.5838145,7.27437191 C15.2406557,7.14161575 14.0331949,7.43593924 13.008603,7.90228074 L8.73818182,2.04133347 Z" id="path-3"></path>
+        <filter x="-6.8%" y="-10.2%" width="113.6%" height="120.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M1.22005242,17.2787595 C1.05706025,16.4002398 0.963231598,15.458256 0.963231598,14.4537184 C0.963231598,7.10143514 6.04492717,3.28448611 6.43116308,3.00499585 L3.55288771,0.195693379 L15.65001,0.0407786058 L15.5516969,11.9069718 L11.6725341,8.12076649 C11.2309697,8.41823558 8.62444215,10.3298829 8.23760351,14.2437184 C8.13625431,15.2691178 8.28381386,16.2154301 8.56679623,17.0616676 L1.22005242,17.2787595 Z" id="path-5"></path>
+        <filter x="-10.2%" y="-8.7%" width="120.4%" height="117.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M9.03650495,19.1946883 C9.37894977,19.694739 11.2915218,22.2266071 15.144375,22.6074184 C19.4229261,23.0303051 22.3245455,19.1196043 22.3245455,19.1196043 L27.0189205,24.4505396 C27.0189205,24.4505396 22.9971023,29.8817903 15.354375,29.8817903 C8.11715253,29.8817903 4.30547652,24.9579039 3.9213733,24.4354046 L1.15491477,27.2697842 L1,15.1726619 L12.8661932,15.270975 L9.03650495,19.1946883 Z" id="path-7"></path>
+        <filter x="-5.8%" y="-10.2%" width="111.5%" height="120.4%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.382529438 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Register---Policy-Holder" transform="translate(-596.000000, -895.000000)">
+            <g id="default" transform="translate(598.000000, 896.000000)">
+                <g id="bg-box">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#D6D6D6" stroke-width="1" stroke-linejoin="square" fill="#FAFAFA" fill-rule="evenodd" x="0.5" y="0.5" width="302" height="75" rx="3"></rect>
+                </g>
+                <g id="reCAPTCHA" transform="translate(235.000000, 11.000000)">
+                    <text font-family="ArialMT, Arial" font-size="9.57090909" font-weight="normal" fill="#A5A5A5">
+                        <tspan x="0" y="43.4460432">reCAPTCHA</tspan>
+                    </text>
+                    <text id="Privacy---Terms" font-family="ArialMT, Arial" font-size="8.14545455" font-weight="normal" fill="#A5A5A5">
+                        <tspan x="0" y="54.9784173">Privacy - Terms</tspan>
+                    </text>
+                    <g transform="translate(11.421818, 0.000000)" id="Combined-Shape">
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#2B4CB9" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#5A96F6" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use fill="#BEBEBE" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                </g>
+                <text id="I’m-not-a-robot" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="52" y="41">I’m not a robot</tspan>
+                </text>
+                <rect id="checkbox" stroke="#C1C1C1" stroke-width="2" fill="#FFFFFF" x="13" y="25" width="26" height="26" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

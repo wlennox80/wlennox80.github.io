@@ -1,0 +1,59 @@
+.tray-try{
+	background-color: #f8fafd;
+	
+
+	h2{
+		margin-top: 64px;
+	}
+
+	p{
+		font-size: 1.6rem;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: 0.53px;
+		color: #0d65ca;
+		text-transform: uppercase;
+		margin-bottom: -16px;
+	}
+
+	a{
+		font-size: 2.0rem;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.45;
+		letter-spacing: -0.42px;
+		color: #25273a;
+		margin-bottom: 20px;
+
+	}
+
+
+	li{
+		color: #2b333f;
+	}
+
+	.list-group-item{
+		background-color: #f8fafd;
+		padding: 40px 40px 40px 1px;
+		width: auto;
+		
+	}
+
+	ul{
+		list-style-type: unset;
+		margin-top: 6.8px;
+	}
+
+}
+
+.list-group-flush:last-child .list-group-item:last-child {
+    margin-bottom: 64px;
+    border-bottom: 0;
+}
+
+
+//Breaks
+//-----------------------------------------------

@@ -1,0 +1,102 @@
+.tray-testimonial{
+
+	.quote{
+		text-align: center;
+		font-size: 2.8rem;
+		line-height: 33.6px;
+		color: #4D5B6D ;
+		font-style: italic;
+
+	}
+
+	.quote-name{
+		text-align: center;
+		font-size: 1.8rem;
+		line-height: 33.6px;
+		color: #6b6b6b !important;
+		margin-bottom: 64px;
+	}
+
+}
+
+
+//Breaks
+//-----------------------------------------------
+
+// @include md{
+
+// 	.testimonial-tray{
+
+// 		.test-img{
+// 			flex-direction: row;
+
+// 			&__img{
+// 				width: 100px;
+// 				margin-top: unset;
+// 				margin-bottom: unset;
+// 			}
+
+// 			&__text{
+// 				width: 100px;
+// 				margin-left: 30px;
+// 			}
+
+// 			&__customer-name{
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+
+// }
+
+// @include lg{
+
+// 	.testimonial-tray{
+
+// 		.test-img{
+// 			flex-direction: row;
+
+// 			&__img{
+// 				width: 100px;
+// 				margin-top: unset;
+// 				margin-bottom: unset;
+// 			}
+
+// 			&__text{
+// 				width: 100px;
+// 				margin-left: 30px;
+// 			}
+
+// 			&__customer-name{
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+
+// }
+
+// @include xl{
+
+// 	.testimonial-tray{
+
+// 		.test-img{
+// 			flex-direction: row;
+
+// 			&__img{
+// 				width: 100px;
+// 				margin-top: unset;
+// 				margin-bottom: unset;
+// 			}
+
+// 			&__text{
+// 				width: 100px;
+// 				margin-left: 30px;
+// 			}
+
+// 			&__customer-name{
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+
+// }

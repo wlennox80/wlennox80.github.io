@@ -1,0 +1,462 @@
+
+//Bold
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Bold";
+    src: url('../fonts/Gilroy-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Bold {
+    font-family: "Gilroy--Bold", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Bold-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Bold-Italic";
+    src: url('../fonts/Gilroy-BoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Bold-Italic {
+    font-family: "Gilroy--Bold-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Extra-Bold
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Extra-Bold";
+    src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Extra-Bold {
+    font-family: "Gilroy--Extra-Bold", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Extra-Bold-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Extra-Bold-Italic";
+    src: url('../fonts/Gilroy-ExtraboldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Extra-Bold-Italic {
+    font-family: "Gilroy--Extra-Bold-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Heavy
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Heavy";
+    src: url('../fonts/Gilroy-Heavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Heavy {
+    font-family: "Gilroy--Heavy", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Heavy-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Heavy-Italic";
+    src: url('../fonts/Gilroy-HeavyItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Heavy-Italic {
+    font-family: "Gilroy--Heavy-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Black
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Black";
+    src: url('../fonts/Gilroy-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Black {
+    font-family: "Gilroy--Black", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Black-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Black-Italic";
+    src: url('../fonts/Gilroy-BlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Black-Italic {
+    font-family: "Gilroy--Black-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+//Medium
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Medium";
+    src: url('../fonts/Gilroy-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Medium {
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Medium-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Medium-Italic";
+    src: url('../fonts/Gilroy-MediumItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Medium-Italic {
+    font-family: "Gilroy--Medium-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+//Regular
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Regular";
+    src: url('../fonts/Gilroy-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Regular {
+    font-family: "Gilroy--Regular", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Regular-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Regular-Italic";
+    src: url('../fonts/Gilroy-RegularItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Regular-Italic {
+    font-family: "Gilroy--Regular-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Semi-Bold
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Semi-Bold";
+    src: url('../fonts/Gilroy-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Semi-Bold {
+    font-family: "Gilroy--Semi-Bold", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Semi-Bold-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Semi-Bold-Italic";
+    src: url('../fonts/Gilroy-SemiboldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Semi-Bold-Italic {
+    font-family: "Gilroy--Semi-Bold-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+//Thin
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Thin";
+    src: url('../fonts/Gilroy-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Thin {
+    font-family: "Gilroy--Thin", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Thin-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Thin-Italic";
+    src: url('../fonts/Gilroy-ThinItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Thin-Italic {
+    font-family: "Gilroy--Thin-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Light
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Light";
+    src: url('../fonts/Gilroy-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Light {
+    font-family: "Gilroy--Light", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Light-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Light-Italic";
+    src: url('../fonts/Gilroy-LightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Light-Italic {
+    font-family: "Gilroy--Light-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Ultra-Light
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Ultra-Light";
+    src: url('../fonts/Gilroy-UltraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Light {
+    font-family: "Gilroy--Ultra-Light", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Ultra-Light-Italic
+//-----------------------------------------------
+@font-face {
+    font-family: "Gilroy--Ultra-Light-Italic";
+    src: url('../fonts/Gilroy-UltraLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-Ultra-Light-Italic {
+    font-family: "Gilroy--Ultra-Light-Italic", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 62.5%;   
+}
+
+body {
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.38px;
+    color: #4D5B6D;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+p+p{
+    margin-top: 30px;
+}
+
+
+h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+h1, .h1{
+  font-size: 5.8rem;
+  font-weight: bold;
+  line-height: 1.34;
+  letter-spacing: -0.39px;
+  color: #25273a;
+}
+
+h2, .h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 43px;
+  letter-spacing: normal;
+  color: #25273a !important;
+}
+
+h3, .h3{
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 34px;
+    letter-spacing: -0.13px;
+    color: #25273a;
+    margin-bottom: 16px;
+    // margin-top: 64px;
+}
+
+h4, .h4{
+    font-size: 2.0rem;
+    line-height: 27px;
+    letter-spacing: -0.42px;
+    color: #25273a;
+    font-weight: bold;
+    margin-bottom: 4px;
+
+}
+
+h5, .h5{
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.90;
+  letter-spacing: -0.34px;
+  color: #4D5B6D;
+}
+
+h6, .h6{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1.28px;
+    color: #0d65ca;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.quote{
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: -0.47px;
+    color: #6e7f92;
+}
+
+.small-card-title{
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    color: #5b6b80;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.card-text{
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    color: #4D5B6D;
+    width: auto;
+}
+
+.book-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+  color: #25273a;
+  margin-bottom: 4px;
+}
+
+
+label {
+    font-family: "Gilroy--Medium", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #25273a;
+}
+
+.photo-credit {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: -0.23px;
+  color: #4D5B6D;
+}
+
+
+
+//-----------------------------------------------
+
