@@ -397,6 +397,10 @@ h6, .h6 {
   width: 27% !important;
 }
 
+.card{
+	border: 1px solid #eeeeee;
+}
+
 
 .card-title{
   line-height: 1em;
@@ -423,9 +427,6 @@ img.icon-background {
   margin-bottom: 30px;
 }
 
-/* .gutter{
-  --bs-gutter-x: 40rem;
-} */
 
 /*tray two components*/
 
@@ -455,7 +456,7 @@ img.icon-background-two {
 }
 
 .accordion{
-  border: 1px solid black;
+  border: 1px solid #eeeeee;
   --bs-accordion-btn-focus-box-shadow: unset !important;
 }
 
