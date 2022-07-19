@@ -389,6 +389,7 @@ img.icon-background-two {
   --bs-accordion-btn-focus-box-shadow: unset !important;
   --bs-accordion-body-padding-x: unset !important;
   --bs-accordion-body-padding-y: unset !important;
+  background-color: white;
 
 }
 
