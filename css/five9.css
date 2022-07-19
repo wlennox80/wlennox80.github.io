@@ -322,6 +322,10 @@ h6, .h6 {
   padding-bottom: 50px;
 }
 
+p{
+	margin-bottom: 2px !important;
+}
+
 .wd-27{
   width: 27% !important;
 }
@@ -332,7 +336,6 @@ h6, .h6 {
 
 .card-title{
   line-height: 1em;
-  padding-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
   color: #333642;
@@ -353,6 +356,35 @@ img.icon-background {
   background-color: #E2E7FA;
   padding: 8px;
   margin-bottom: 30px;
+}
+
+img.icon-background-zero {
+	background-color: #E2E7FA;
+	padding: 8px;
+	margin-bottom: 30px;
+  }
+
+  .pd-30{
+	padding: 30px;
+  }
+
+.accordion-button-zero {
+    color: #4a4d59 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    font-weight: 700 !important;
+    margin-left: -5px;
+    width: 47% !important;
+	position: relative;
+	display: flex;
+	border: none;
+	background-color: transparent;
+	padding-top: 10px;
+}
+
+.accordion-body-zero{
+	font-size: 16px;
+	font-weight: 400;
 }
 
 
