@@ -469,6 +469,17 @@ img.icon-background-two {
     border: none !important;
 }
 
+/*Footer*/
+
+.text-muted{
+	font-size: 14px;
+	
+}
+
+.ft-blue{
+	color: #244CDE !important;
+}
+
 
 
 @media all and (min-width: 768px) {
