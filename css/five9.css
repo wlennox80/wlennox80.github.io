@@ -279,16 +279,11 @@ h6, .h6 {
   padding-bottom: 30px;
 }
 
-
 .form{
   position: relative;
   text-align: -webkit-center;
   width: 100%;
 }
-
-/* .form-control{
-  width: 80%;
-} */
 
 .form .fa-search{
   color: #4A4D59;
@@ -296,15 +291,6 @@ h6, .h6 {
   left: 16px;
   top: 11px;
 }
-
-/* .form span{
-  position: absolute;
-  right: 17px;
-  left: 74px;
-  top: 0px;
-  padding: 8px;
-  border-left: 1px solid #d1d5db;
-} */
 
 .left-pan{
   padding-left: 7px;
@@ -341,7 +327,6 @@ h6, .h6 {
 	border: 1px solid #eeeeee;
 }
 
-
 .card-title{
   line-height: 1em;
   padding-bottom: 10px;
@@ -376,7 +361,7 @@ img.icon-background {
 }
 
 .accordion-body{
-  margin-left: 76px;
+  margin-left: 87px;
   font-size: 16px;
   font-weight: 400;
 
@@ -398,6 +383,9 @@ img.icon-background-two {
 .accordion{
   border: 1px solid #eeeeee;
   --bs-accordion-btn-focus-box-shadow: unset !important;
+  --bs-accordion-body-padding-x: unset !important;
+  --bs-accordion-body-padding-y: unset !important;
+
 }
 
 .mt-30{
