@@ -141,7 +141,7 @@
 				<h5 class="hero-text">Find help using and administering Five9 Products</h5>
 			  <div class="form">
 				<i class="fa fa-search"></i>
-				<input type="text" class="form-control form-input" placeholder="Search anything...">
+				<input id="search" type="text" onkeydown="return search(this)" class="form-control form-input" placeholder="Search anything..." aria-label="Large" aria-describedby="inputGroup-sizing-sm">
 			  </div>
 			</div>
 		  </div>
@@ -428,7 +428,7 @@
 
 
     <!-- five9 jQuery -->
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main.js"></script>
 	
 </body>
 </html>

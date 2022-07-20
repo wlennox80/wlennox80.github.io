@@ -25,3 +25,12 @@ $(document).ready(function() {
 		use_lang(lang);
 	});
 });
+
+
+ //detects keystroke in the search input and redirects the query using MadCap's default search 
+ function search(query) {
+	if(event.key === 'Enter') {
+	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/search.html?q=" + query.value
+	  return false;     
+	}
+  }
