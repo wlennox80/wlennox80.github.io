@@ -234,7 +234,6 @@ h6, .h6 {
 .dropdown{
   padding-left: 10px;
   font-size: 18px;
-  font-weight: 700;
 }
 
 .dropdown-menu{
@@ -248,7 +247,8 @@ h6, .h6 {
 }
 
 .btn{
-	font-size: 18px;
+	font-size: 16px;
+	margin-left: 20px;
 }
  
   /*hero tray*/
@@ -332,6 +332,16 @@ p{
 
 .card{
 	border: 1px solid #eeeeee;
+}
+
+.card-list{
+	list-style-type: none;
+	padding-left: 0rem;;
+}
+
+.card-list-item{
+	line-height:15px;
+	margin-top: 10px;
 }
 
 .card-title{
