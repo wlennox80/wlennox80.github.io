@@ -13,18 +13,18 @@ var lang;
 // });
 
 
-$(document).ready(function() { 
-	// set language selector current language
-	$('select#lang').val(curLang);
-	$('select#lang').css('visibility','visible');
+// $(document).ready(function() { 
+// 	// set language selector current language
+// 	$('select#lang').val(curLang);
+// 	$('select#lang').css('visibility','visible');
 
-	// process language change
-	$('select#lang').change(function() {
-		lang = $(this).val();
-		localStorage.setItem('lang', lang);
-		use_lang(lang);
-	});
-});
+// 	// process language change
+// 	$('select#lang').change(function() {
+// 		lang = $(this).val();
+// 		localStorage.setItem('lang', lang);
+// 		use_lang(lang);
+// 	});
+// });
 
 
  //detects keystroke in the search input and redirects the query using MadCap's default search 
