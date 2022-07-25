@@ -4,13 +4,13 @@ var path = location.pathname;
 var curLang = "en-us";
 var lang;
 
-$(document).ready(function() {
-	for (var i = 0; i < langs.length; i++) {
-		if (path.indexOf('/' + langs[i] + '/') != -1) {
-			curLang = langs[i];
-		}
-	}
-});
+// $(document).ready(function() {
+// 	for (var i = 0; i < langs.length; i++) {
+// 		if (path.indexOf('/' + langs[i] + '/') != -1) {
+// 			curLang = langs[i];
+// 		}
+// 	}
+// });
 
 
 $(document).ready(function() { 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
   function search(query) {
 	if(addEventListener.key === 'Enter') {
-	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"https://wlennox80.github.io/pt-404.html" + query.value
+	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"https://help.madcapsoftware.com/flare2021r2/Content/Search-Results.htm?q=" + query.value
 	  return false;     
 	}
   }
