@@ -28,9 +28,16 @@ $(document).ready(function() {
 
 
  //detects keystroke in the search input and redirects the query using MadCap's default search 
- function search(query) {
-	if(event.key === 'Enter') {
-	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/search.html?q=" + query.value
+//  function search(query) {
+// 	if(addEventListener.key === 'Enter') {
+// 	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/search.html?q=" + query.value
+// 	  return false;     
+// 	}
+//   }
+
+  function search(query) {
+	if(addEventListener.key === 'Enter') {
+	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"https://wlennox80.github.io/pt-404.html" + query.value
 	  return false;     
 	}
   }
