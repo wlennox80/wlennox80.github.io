@@ -37,7 +37,7 @@ var lang;
 
   function search(query) {
 	if(addEventListener.key === 'Enter') {
-	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"https://help.madcapsoftware.com/flare2021r2/Content/Search-Results.htm?q=" + query.value
+	  window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/Search-Results.htm?q=" + query.value
 	  return false;     
 	}
   }
