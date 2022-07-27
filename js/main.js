@@ -36,9 +36,17 @@ var lang;
 //   }
 
 
-  function search(query) {
-	if(addEventListener.key === 'Enter') {
-	  window.location = `https://help.madcapsoftware.com/flare2021r2/Default.htm#cshid=&searchQuery=`+ query.value
-	  return false;     
+// function search(this) {
+// 	if(addEventListener.key === 'Enter') {
+// 	  window.location = "https://help.madcapsoftware.com/flare2021r2/Default.htm#cshid=&searchQuery="
+// 	  return false;     
+// 	}
+//   }
+
+  let search = document.querySelector(".form .form-input");
+
+  search.addEventListener("keydown", function(event) {
+	if (event.keyCode == '13') {
+	  window.location = "https://help.madcapsoftware.com/flare2021r2/Default.htm#cshid=&searchQuery=" + this.value;
 	}
-  }
+  });
