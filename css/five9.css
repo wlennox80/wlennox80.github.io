@@ -28,6 +28,40 @@ body {
 
  /*nav*/
 
+ /* nav ul ul:before {
+  position: absolute;
+  top: -9px;
+  left:150px;
+  display: inline-block;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #EEE;
+  border-left: 9px solid transparent;
+  content: '';
+} */
+
+ a {
+  color: #244cde !important;
+  text-decoration: none !important;
+}
+
+ .pt-15{
+  padding-top: 15px;
+ }
+
+ .dropdown-menu{
+  padding: 1rem;
+
+ }
+
+ .title{
+  font-size: 18px;
+  color: #4D5B6D;
+ }
+
+ .list-unstyled{
+  font-size: 16px;
+ }
+
  .right{
   justify-content: flex-end;
  }
@@ -322,6 +356,12 @@ img.icon-background-zero {
 }
 
 @media all and (min-width: 992px) {
+
+.dropdown-large {
+    min-width: 400px;
+    /* margin-left: -100px; */
+  } 
+
 	.navbar .nav-item .dropdown-menu{ 
     display: none; 
   }
