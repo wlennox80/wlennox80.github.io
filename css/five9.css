@@ -36,20 +36,20 @@ body {
 
 
 .bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
-    border-top-color: white;
+    border-top-color: white !important;
 }
 .bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before {
-    border-right-color: white;
+    border-right-color: white !important;
 }
 .bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before {
-    border-bottom-color: white;
+    border-bottom-color: white !important;
 }
 .bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before {
-    border-left-color: white;
+    border-left-color: white !important;
 }
 .tooltip-inner {
-    color: black;
-    background-color: white;
+    color: black !important;
+    background-color: white !important;
 }
 
 .fa-circle-info{
