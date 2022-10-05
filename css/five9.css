@@ -11,8 +11,6 @@ input[type=text], input[type=password], input[type=search], input[type=date], in
   font-weight: normal;
   font-style: normal; }
 
-  
-
 html {
   font-size: 62.5%; }
 
@@ -29,12 +27,14 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 
-  .tooltip {
-    /* font-family: Sora, sans-serif;
+/* .tooltip {
+    font-family: Sora, sans-serif;
     font-weight: 300;
     line-height: 1.4;
-    font-size: 0.8rem; */
-}
+    font-size: 0.8rem;
+} */
+
+
 .bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
     border-top-color: white;
 }
