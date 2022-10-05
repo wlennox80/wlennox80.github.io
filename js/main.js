@@ -1,4 +1,5 @@
 
+//search js
   let search = document.querySelector(".form .form-input");
 
   search.addEventListener("keydown", function(event) {
@@ -7,9 +8,17 @@
 	}
   });
 
+
+//tooltip js
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+//nav js
   document.addEventListener("DOMContentLoaded", function(){
 
-    /////// Prevent closing from click inside dropdown
+    // Prevent closing from click inside dropdown
     document.querySelectorAll('.dropdown-menu').forEach(function(element){
       element.addEventListener('click', function (e) {
         e.stopPropagation();

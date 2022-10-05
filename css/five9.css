@@ -11,6 +11,8 @@ input[type=text], input[type=password], input[type=search], input[type=date], in
   font-weight: normal;
   font-style: normal; }
 
+  
+
 html {
   font-size: 62.5%; }
 
@@ -26,18 +28,40 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
 
- /*nav*/
 
- /* nav ul ul:before {
-  position: absolute;
-  top: -9px;
-  left:150px;
-  display: inline-block;
-  border-right: 9px solid transparent;
-  border-bottom: 9px solid #EEE;
-  border-left: 9px solid transparent;
-  content: '';
-} */
+  .tooltip {
+    /* font-family: Sora, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 0.8rem; */
+}
+.bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
+    border-top-color: white;
+}
+.bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before {
+    border-right-color: white;
+}
+.bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before {
+    border-bottom-color: white;
+}
+.bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before {
+    border-left-color: white;
+}
+.tooltip-inner {
+    color: black;
+    background-color: white;
+}
+
+.fa-circle-info{
+  color: white;
+  float: right;
+  margin-top: -29px;
+  margin-right: -30px;
+}
+
+.fa-circle-info:hover{
+  color: white;
+}
 
  a {
   color: #244cde;
