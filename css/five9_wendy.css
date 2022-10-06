@@ -27,30 +27,29 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 
-.tooltip {
-  font-size: 12px;
-}
+/* .tooltip {
+    font-family: Sora, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 0.8rem;
+} */
+
 
 .bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
-  border-top-color: white !important;
+    border-top-color: white !important;
 }
-
 .bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before {
-  border-right-color: white !important;
+    border-right-color: white !important;
 }
-
 .bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before {
-  border-bottom-color: white !important;
+    border-bottom-color: white !important;
 }
-
 .bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before {
-  border-left-color: white !important;
+    border-left-color: white !important;
 }
-
 .tooltip-inner {
-  color: black !important;
-  background-color: white !important;
-  text-align: left;
+    color: black !important;
+    background-color: white !important;
 }
 
 .fa-circle-info{
@@ -63,7 +62,6 @@ body {
 .fa-circle-info:hover{
   color: white;
 }
-
 
  a {
   color: #244cde;
