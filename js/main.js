@@ -4,9 +4,21 @@
 
   search.addEventListener("keydown", function(event) {
 	if (event.keyCode == '13') {
-	  window.location = "https://five9inc.mcoutput.com/1376431/Content/Search.htm#cshid=&searchQuery=" + this.value;
+	  window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
 	}
   });
+
+  // search.addEventListener("keydown", function(event) {
+  //   if (event.keyCode == '13') {
+  //     window.location = "https://five9inc.mcoutput.com/1376431/Content/Search.htm?q=" + this.value;
+  //   }
+  //   });
+
+  // search.addEventListener("keydown", function(event) {
+  //   if (event.keyCode == '13') {
+  //     window.location = "https://five9inc.mcoutput.com/1376431/Content/Search.htm#cshid=&searchQuery=" + this.value;
+  //   }
+  //   });
 
 
 //tooltip js
