@@ -3,10 +3,16 @@
   let search = document.querySelector(".form .form-input");
 
   search.addEventListener("keydown", function(event) {
-	if (event.keyCode == '13') {
-	  window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
-	}
-  });
+    if (event.keyCode == '13') {
+      window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}/search.html?q=${query.value}`;
+    }
+    });
+
+  // search.addEventListener("keydown", function(event) {
+	// if (event.keyCode == '13') {
+	//   window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
+	// }
+  // });
 
   // search.addEventListener("keydown", function(event) {
   //   if (event.keyCode == '13') {
