@@ -3,29 +3,10 @@
   let search = document.querySelector(".form .form-input");
 
   search.addEventListener("keydown", function(event) {
-    if (event.keyCode == '13') {
-      window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"Content/Search.html?q=" + query.value
-    }
-    });
-
-  // search.addEventListener("keydown", function(event) {
-	// if (event.keyCode == '13') {
-	//   window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
-	// }
-  // });
-
-  // search.addEventListener("keydown", function(event) {
-  //   if (event.keyCode == '13') {
-  //     window.location = "https://five9inc.mcoutput.com/1376431/Content/Search.htm?q=" + this.value;
-  //   }
-  //   });
-
-  // search.addEventListener("keydown", function(event) {
-  //   if (event.keyCode == '13') {
-  //     window.location = "https://five9inc.mcoutput.com/1376431/Content/Search.htm#cshid=&searchQuery=" + this.value;
-  //   }
-  //   });
-
+	if (event.keyCode == '13') {
+	  window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
+	}
+  });
 
 //tooltip js
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
