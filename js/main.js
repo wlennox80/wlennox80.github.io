@@ -3,10 +3,16 @@
   let search = document.querySelector(".form .form-input");
 
   search.addEventListener("keydown", function(event) {
-	if (event.keyCode == '13') {
-	  window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
-	}
-  });
+    if (event.keyCode == '13') {
+      window.location = window.location.pathname + "?q=" + this.value
+     }
+    });
+
+  // search.addEventListener("keydown", function(event) {
+	// if (event.keyCode == '13') {
+	//   window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
+	// }
+  // });
 
 //tooltip js
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
