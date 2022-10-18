@@ -4,22 +4,9 @@
 
   search.addEventListener("keydown", function(event) {
     if (event.keyCode == '13') {
-       window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/search.html?q=" + this.value
+       window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/Search.htm?q=" + this.value
      }
     });
-
-  // search.addEventListener("keydown", function(event) {
-  //   if (event.keyCode == '13') {
-  //     window.location = window.location.pathname + "/Content/search.html?q=" + this.value
-  //    }
-  //   });
-
-
-  // search.addEventListener("keydown", function(event) {
-	// if (event.keyCode == '13') {
-	//   window.location = "https://documentation.five9.com/alphatest/Content/Search.htm?q=" + this.value;
-	// }
-  // });
 
 //tooltip js
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
