@@ -4,9 +4,10 @@
 
   search.addEventListener("keydown", function(event) {
     if (event.keyCode == '13') {
-      window.location = window.location.pathname + "?q=" + this.value
+      window.location = window.location.pathname + "/Content/search.html?q=" + this.value
      }
     });
+
 
   // search.addEventListener("keydown", function(event) {
 	// if (event.keyCode == '13') {
