@@ -4,7 +4,7 @@
 
   search.addEventListener("keydown", function(event) {
     if (event.keyCode == '13') {
-       window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/Content/search.html?q=" + query.value
+       window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/Content/search.html?q=" + this.value
      }
     });
 
