@@ -4,9 +4,15 @@
 
   search.addEventListener("keydown", function(event) {
     if (event.keyCode == '13') {
-       window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/Content/search.html?q=" + this.value
+      window.location = window.location.pathname + "?q=" + this.value
      }
     });
+
+  // search.addEventListener("keydown", function(event) {
+  //   if (event.keyCode == '13') {
+  //      window.location = `${location.href.substring(0, location.href.lastIndexOf("/"))}`+"/Content/search.html?q=" + this.value
+  //    }
+  //   });
 
   // search.addEventListener("keydown", function(event) {
   //   if (event.keyCode == '13') {
