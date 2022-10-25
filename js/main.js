@@ -14,6 +14,31 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
+$('#form').submit(function(e) {
+  document.getElementById("currURL").value = window.location.href;  // Update the form's input field value with the current URL  			
+  e.preventDefault();
+  $.ajax({
+  url: "https://docs.google.com/forms/d/1oO9yubFk9TvQGS1SuH0copBZJb83lSYInnKUHtdfIJg/formResponse",
+  data: $(this).serialize(),
+  type: "POST",
+  dataType: "xml",
+  success: function(data) {
+  console.log('Submission successful');
+  },
+  error: function(xhr, status, error) {
+  console.log('Submission failed: ' + error);
+  }
+  });
+  });
+
+  $(document).ready(function() {
+    $("#form").submit(function(e) {
+    e.preventDefault();
+    $("#feedback-question").hide();
+    $("#feedback-reason").show();
+    });
+    });
+
 //nav js
   document.addEventListener("DOMContentLoaded", function(){
 
