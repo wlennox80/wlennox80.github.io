@@ -59,9 +59,10 @@ fieldset{
     min-inline-size: min-content;
     border-width: 1px;
     border-style: groove;
-    border-color: rgba(0,0, 0, 0.175);
+    border-color: rgba(0,0, 0, 0.110);
     border-image: initial;
     font-size: calc(1.275rem + .3vw);
+    border-radius: 0.375rem;
 }
 
 .submit-form {
