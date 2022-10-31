@@ -83,6 +83,9 @@ fieldset{
   width: 100%;
 }
 
+.tray-feedback{
+  padding-top: 30px;
+}
 
 .tooltip {
   font-size: 12px;
