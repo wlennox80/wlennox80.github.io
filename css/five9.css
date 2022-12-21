@@ -340,6 +340,24 @@ img.icon-background-zero {
 	font-weight: 400;
 }
 
+.blue{
+  background-color: #E2E7FA;
+}
+
+.white{
+  color: white;
+}
+
+.f-40 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.header-one{
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
 
 /*tray two components*/
 
@@ -499,4 +517,24 @@ img.icon-background-zero {
     height: 100% !important;
   }
 
+}
+
+.lang-list-home{
+	float: right;	
+	margin-top: 0px;
+  padding-left: 20px;
+}
+
+.lang-select-home{
+	background-color: #6c757d;
+	color: white;
+	font-size: 14px;
+	border-radius: 0.375rem;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.ddown{
+	background-color: white;
+	color: black;
 }
