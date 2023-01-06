@@ -14,7 +14,6 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-
 //feedback form
 $('#form').submit(function(e) {
   document.getElementById("currURL").value = window.location.href;  // Update the form's input field value with the current URL  			
