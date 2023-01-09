@@ -128,13 +128,14 @@
 						   <option class="ddown" value="en-us">English</option>
 						</select>
 					  </form> -->
-
-					  <select onchange="window.location=this.value" class="form-select" aria-label="Default select example">
-						<option selected>Open this select menu</option>
-						<option value="portal-home.htm">One</option>
-						<option value="home_de.htm">Two</option>
-						<option value="home_fr-ca.htm">Three</option>
+					  <form name="langList" class="lang-list">
+					  	<select onchange="window.location=this.value" class="lang-select" aria-label="Default select example">
+						<!-- <option selected>Open this select menu</option> -->
+						<option class="ddown" value="portal-home.htm">English</option>
+						<option class="ddown" value="home_de.htm">Deutsche</option>
+						<option class="ddown" value="home_fr-ca.htm">Français Canadien</option>
 					  </select>
+					</form>
 				</div>
 			</div>
 		</nav>
@@ -391,8 +392,7 @@
 
 
     <!-- five9 jQuery -->
-	<!-- <script src="js/lang.js"></script>
-      <script src="js/main.js"></script> -->
+      <script src="js/main.js"></script>
    
       <!-- Google Tag Manager -->
       <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KED6KQJ04X">
