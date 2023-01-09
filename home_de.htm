@@ -74,13 +74,20 @@
 				</li>
 				
 				<div>
-					<form name="langList" class="lang-list">
+					<!-- <form name="langList" class="lang-list">
 						<select id="lang" name="langSelect" class="lang-select">
 							<option class="ddown" value="de">Deutsche</option>
 							<option class="ddown" value="fr-ca">Français Canadien</option>
 						   <option class="ddown" value="en-us">English</option>
 						</select>
-					  </form>
+					  </form> -->
+
+					  <select onchange="window.location=this.value" class="form-select" aria-label="Default select example">
+						<option selected>Open this select menu</option>
+						<option value="portal-home.htm">One</option>
+						<option value="home_de.htm">Two</option>
+						<option value="home_fr-ca.htm">Three</option>
+					  </select>
 				</div>
 			</ul>
 		</div>
@@ -331,7 +338,7 @@
 
 
     <!-- five9 jQuery -->
-      <script src="js/main.js"></script>
+      <!-- <script src="js/main.js"></script> -->
    
       <!-- Google Tag Manager -->
       <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KED6KQJ04X">
