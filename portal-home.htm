@@ -220,6 +220,13 @@
 			<a class="nav-link  dropdown-toggle" href="https://releasenotes.five9.com/" target="_blank" title="Requires login on Five9 Release Notes website">Release Notes</a>
 		 </li>
 				<div>
+
+					<select class="form-select" aria-label="Default select example">
+						<option selected>Open this select menu</option>
+						<option value="portal-home">One</option>
+						<option value="home_de">Two</option>
+						<option value="home_fr-ca">Three</option>
+					  </select>
 					<!-- <form name="langList" class="lang-list">
 						<select id="lang" name="langSelect" class="lang-select">
 							<option class="ddown" value="en-us">English</option>
@@ -228,11 +235,11 @@
 						</select>
 					  </form> -->
 
-					  <select id="homelang" class="lang-select" aria-label="select">
+					  <!-- <select id="homelang" class="lang-select" aria-label="select">
 						<option class="ddown" value="portal-home.htm">English</option>
 						<option class="ddown" value="home_de.htm">Deutsche</option>
 						<option class="ddown" value="home_fr-ca.htm">Français Canadien</option>
-					  </select>
+					  </select> -->
 
 					  <!-- <select id="sampleSelect" >
 						<option value="Home.php">Home</option>
@@ -245,6 +252,13 @@
 						<option value="http://www.google.com">x</option>
 						<option value="http://www.yahoo.com">y</option>
 					</select> -->
+
+					<!-- <select onchange="window.location=this.value">
+						<option></option>
+						<option value="http://www.google.com">Google</option>
+						<option value="http://www.yahoo.com">Yahoo</option>
+						<option value="http://www.bing.com">Bing</option>
+						</select>
 					
 					<script>
 						document.getElementById("homelang").onchange = function() {
@@ -252,7 +266,7 @@
 								window.location.href = this.value;
 							}        
 						};
-					</script>
+					</script> -->
 
 
 				</div>
