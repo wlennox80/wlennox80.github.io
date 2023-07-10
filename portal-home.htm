@@ -16,7 +16,8 @@
     <!--Fontawesome-->
 	<script src="https://kit.fontawesome.com/1b9d3716b4.js" crossorigin="anonymous">
 	</script>
-
+<!--favicon-->
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <div class="container-fluid alert alert-primary d-flex align-items-center justify-content-center" role="alert">
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="red" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
 	  <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -47,6 +48,7 @@
 									<li class="list-unstyled-item"><a href="digital-engagement/landing-digital-engagement.htm">Digital Engagement</a></li>
 									<li class="list-unstyled-item"><a href="single-sign-on/landing-single-sign-on.htm">Single Sign-On</a></li>
 									<li class="list-unstyled-item"><a href="single-sign-on/identity-service/landing-identity-service.htm">Five9 Identity Service</a></li>
+									<li class="list-unstyled-item"><a href="emergency-services/landing-emergency-services.htm">Five9 Emergency Services</a></li>									
 									<li class="list-unstyled-item"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/customer-resources/five9-system-status-portal-guide.pdf" target="_blank" title="Requires login on the legacy Five9 Product Documentation website">System Status</a></li>
 								</ul>
 							</div><!-- end col-3 -->
@@ -85,13 +87,12 @@
 								<ul class="list-unstyled">
 									<li class="list-unstyled-item"><a href="uc-adapters/landing-uc-adapters-admin-gd.htm">Unified Communication Adapters</a></li>
 									<li class="list-unstyled-item"><a href="voicestream-admin-guide/landing-voicestream-admin-guide.htm">VoiceStream Subscriptions</a></li>
-									<li class="list-unstyled-item"><a href="emergency-services/landing-emergency-services.htm">Five9 Emergency Services</a></li>
 								</ul>
 							</div><!-- end col-3 -->
 							<div class="col-6">
 								<h6 class="title pt-15">Digital Workforce</h6>
 								<ul class="list-unstyled">
-									<!--<li class="list-unstyled-item"><a href="#">Agent Assist Administrator</a></li>agent-assist-admin/landing-agent-assist-admin.htm-->
+									<li class="list-unstyled-item"><a href="agent-assist-admin/landing-agent-assist-admin.htm">Agent Assist Studio</a></li>
 									<li class="list-unstyled-item"><a href="studio-combo/landing-studio-combo.htm">Studio Intelligent Virtual Agent</a></li>
 									<li class="list-unstyled-item"><a href="workflow-automation/landing-workflow-automation.htm">Workflow Automation</a></li>
 								</ul>
@@ -161,7 +162,7 @@
 							<div class="col-6">
 								<h6 class="title pt-15">Digital Workforce</h6>
 								<ul class="list-unstyled">
-									<li class="list-unstyled-item"><a href="#">Agent Assist</a></li><!--agent-assist-admin/landing-agent-assist-admin.htm-->
+									<li class="list-unstyled-item"><a href="agent-assist-agent/landing-agent-assist.htm">Agent Assist</a></li>
 								</ul>
 							</div><!-- end col-3 -->
 						</div><!-- end row -->
@@ -220,11 +221,11 @@
 			<a class="nav-link  dropdown-toggle" href="https://releasenotes.five9.com/" target="_blank" title="Requires login on Five9 Release Notes website">Release Notes</a>
 		 </li>
 				<div>
-					<form name="langList" class="lang-list">
+					<form name="langList" class="lang-list" autocomplete="off">
 						<select onchange="window.location=this.value" class="lang-select" aria-label="Default select example">
-					  		<option class="ddown" value="portal-home.htm">English</option>
-					  		<option class="ddown" value="home_fr-ca.htm">Français Canadien</option>
-					  		<option class="ddown" value="home_de.htm">Deutsche</option>
+					  		<option class="ddown" value="https://documentation.five9.com/en-us/Content/home.htm">English</option>
+					  		<option class="ddown" value="https://documentation.five9.com/fr-ca/Content/home.htm">Français Canadien</option>
+					  		<option class="ddown" value="https://documentation.five9.com/de/Content/home.htm">Deutsche</option>
 						</select>
 				  	</form>
 				</div>
@@ -261,64 +262,72 @@
 	<div class="tray-one">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="accordion h-100 pd-30 accordion-flush" id="accordionFlushExample">
 						<i class="icon-background fa-solid fa-star"></i>
-						<!-- <img class="icon-background" src="./img/New-content.svg"> -->
 						<div class="accordion-item">
 							<h5 class="card-title">What's New</h5>
 							<ul class="card-list">
 								<li class="card-list-item">
-									<a href="analytics/landing-analytics.htm" class="card-link">Dec 22: Five9 Analytics</a>
+								<a href="agent-desktop-plus/landing-agent-desktop-plus.htm" class="card-link">Mar 15: Agent Desktop Plus</a>
 								</li>
 								<li class="card-list-item">
-									<a href="emergency-services/landing-emergency-services.htm" class="card-link">Dec 22: Five9 Emergency Services</a>
+									<a href="reports-dashboards/landing-reports-dashboards.htm" class="card-link">Mar 15: VCC Dashboards and Reports</a>
 								</li>
 								<li class="card-list-item">
-									<a href="admin-console/landing-admin-console.htm" class="card-link">Dec 15: Admin Console</a>
+									<a href="crm-admins/MSDynamics/landing-crm-admins-MSDynamics.htm" class="card-link">Feb 28: Microsoft Dynamics 365 Plus Adapter Administrator</a></p>
+                				</li>
+								<li class="card-list-item">
+									<a href="crm-agents/MSDynamics/landing-crm-agents-guide-MSD.htm" class="card-link">Feb 28: Microsoft Dynamics 365 Plus Adapter Agent</a></p>
+                				</li>
+								<li class="card-list-item">
+									<a href="crm-agents/ADT/landing-crm-agents-guide-ADT.htm" class="card-link">Feb 28: Agent Desktop Toolkit Plus</a>
 								</li>
 								<li class="card-list-item">
-									<a href="technical-reqs/landing-technical-reqs.htm" class="card-link">Dec 05: Technical Requirements</a>
-								</li>	
-								<li class="card-list-item">
-								<a href="https://webapps.five9.com/assets/files/for_customers/documentation/customer-resources/five9-system-status-portal-guide.pdf" target="_blank" title="Requires login on the legacy Five9 Product Documentation website" class="card-link">Nov 10: System Status Guide (NEW)</a>
-							  </li>							
-								<li class="card-list-item">
-									<a href="digital-engagement/landing-digital-engagement.htm" class="card-link">Nov 02: Digital Engagement</a>
+									<a href="workflow-automation/landing-workflow-automation.htm" class="card-link">Feb 17: Workflow Automation</a>
 								</li>
+								
 							</ul>
-						  <h2 class="accordion-header" id="flush-headingZero">
-							<button class="accordion-button-zero collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseZero" aria-expanded="false" aria-controls="flush-collapseZero">
-							  More....
-							</button>
-						  </h2>
+							<div class="accordion-header-one" id="flush-headingZero">
+								<button class="button-one accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseZero" aria-expanded="false" aria-controls="flush-collapseZero">
+							  		More 
+								</button>
+							</div>
 						  <div id="flush-collapseZero" class="accordion-collapse collapse" aria-labelledby="flush-headingZero" data-bs-parent="#accordionFlushExample">
 							<ul class="card-list">
 								<li class="card-list-item">
-									<a href="single-sign-on/identity-service/landing-identity-service.htm" class="card-link">Sep 30: Five9 Identity Service</a>
+									<a href="technical-reqs/landing-technical-reqs.htm" class="card-link">Feb 15: Technical Requirements</a>
 								</li>
 								<li class="card-list-item">
-									<a href="headsets/landing-headsets.htm" class="card-link">Sep 21: Recommended Headsets</a>
-							  </li>
-							  <li class="card-list-item">
-									<a href="analytics/landing-analytics.htm" class="card-link">Sep 14: Five9 Analytics (NEW)</a>
+									<a href="supervisor-plus/landing-supervisor-plus.htm" class="card-link">Feb 15: Supervisor Plus</a>
+								</li>
+						  		<li class="card-list-item">
+									<a href="crm-agents/Salesforce/landing-crm-agents-guide-Salesforce.htm" class="card-link">Feb 15: Salesforce Plus Adapter</a>
 								</li>
 								<li class="card-list-item">
-									<a href="crm-admins/SalesforceBYOT/landing-crm-admins-byot.htm" class="card-link">Sep 14: Five9 for Service Cloud Voice BYOT (NEW)</a>
+									<a href="crm-agents/ServiceNow/landing-crm-agents-guide-ServiceNow.htm" class="card-link">Feb 15: ServiceNOW Plus Adapter</a>
 								</li>
 								<li class="card-list-item">
-									<a href="agent-desktop-plus/landing-agent-desktop-plus.htm" class="card-link">Jul 15: Agent Desktop Plus</a>
+									<a href="crm-agents/Zendesk/landing-crm-agents-guide-Zendesk.htm" class="card-link">Feb 15: Zendesk Plus Adapter</a>
+								</li>
+								<li class="card-list-item">
+									<a href="uc-adapters/landing-uc-adapters-admin-gd.htm" class="card-link">Feb 07: UC Adapters</a>
+								</li>
+								<li class="card-list-item">
+									<a href="admin-console/landing-admin-console.htm" class="card-link">Feb 02: Admin Console</a>
+								</li>
+								<li class="card-list-item">
+									<a href="digital-engagement/landing-digital-engagement.htm" class="card-link">Feb 02: Digital Engagement</a>
 								</li>
 							</ul>
 						  </div>
 						</div>
 					</div>
 				  </div>
-					<div class="col-sm-3">
+					<div class="col-sm-4">
 						<div class="card">
 						<div class="card-body">
 							<i class="icon-background fa-solid fa-link"></i>
-							<!-- <img class="icon-background" src="./img/admin.svg"> -->
 						  <h5 class="card-title">Top Links</h5>
 						  <ul class="card-list">
 						  	<li class="card-list-item">
@@ -340,18 +349,20 @@
 						</div>
 					  </div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-4">
 						<div class="card">
 						<div class="card-body">
 							<i class="icon-background fa-solid fa-book-open"></i>
-							<!-- <img class="icon-background-zero" src="./img/users.svg"> -->
 						  <h5 class="card-title">Resources</h5>
 						  <ul class="card-list">
 						  	<li class="card-list-item">
 								<a href="https://systemstatus.five9.com/login" target="_blank" title="Requires login on Five9 System Status website" class="card-link">System Status Portal</a>
 							</li>
 						  	<li class="card-list-item">
-								<a href="https://webapps.five9.com/product-documentation/" target="_blank" title="Requires login on the legacy Five9 Product Documentation website" class="card-link">Customer Guide PDFs</a>
+								<a href="assets/admin-pdfs.htm" class="card-link">Customer Guide PDFs</a>
+							</li>
+						  	<li class="card-list-item">
+								<a href="https://webapps.five9.com/product-documentation/" target="_blank" title="Requires login on the legacy Five9 Product Documentation website" class="card-link">Legacy Product Documentation</a>
 							</li>
 						  	<li class="card-list-item">
 								<a href="https://releasenotes.five9.com/" target="_blank" title="Requires login on Five9 Release Notes website" class="card-link">Five9 Release Notes</a>
@@ -381,7 +392,6 @@
 					<div class="col-sm-4 offset-lg-2 offset-sm-0 offset-md-2">
 						<div class="accordion accordion-flush" id="accordionFlushExample">
 							<i class="icon-background-two fa-solid fa-user-gear"></i>
-							<!-- <img class="icon-background-two" src="./img/admin.svg"> -->
 							<div class="accordion-item">
 								<p class="card-title-two">Administrators</p>
 							  <h2 class="accordion-header" id="flush-headingOne">
@@ -391,12 +401,12 @@
 							  </h2>
 							  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
 								<p class="accordion-body"><a href="admin-console/landing-admin-console.htm">Administrator Console</a></li><!--admin-console/landing-admin-console.htm-->
-								<p class="accordion-body"><a href="#">Agent Assist Administration</a></li><!--agent-assist-admin/landing-agent-assist-admin.htm-->
+								<p class="accordion-body"><a href="agent-assist-admin/landing-agent-assist-admin.htm">Agent Assist Studio</a></li>
 								<p class="accordion-body"><a href="crm-admins/ADT/landing-crm-admins-ADT.htm">Agent Desktop Toolkit Plus</a></p>
 								<p class="accordion-body"><a href="basic-admin/landing-basic-admin.htm">Basic Configuration</a></p>
 								<p class="accordion-body"><a href="campaign-admin/landing-campaign-admin.htm">Campaigns</a></p>
 								<p class="accordion-body"><a href="digital-engagement/landing-digital-engagement.htm">Digital Engagement</a></p>
-								<p class="accordion-body"><a href=https://webapps.five9.com/assets/files/for_customers/documentation/vcc-applications/administrator/emergency-services-administrators-guide.pdf" target="_blank" title="Requires login on the legacy Five9 Product Documentation website">Five9 Emergency Services</a></p>
+								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/vcc-applications/administrator/emergency-services-administrators-guide.pdf" target="_blank" title="Requires login on the legacy Five9 Product Documentation website">Five9 Emergency Services</a></p>
 								<p class="accordion-body"><a href="single-sign-on/identity-service/landing-identity-service.htm">Five9 Identity Service</a></p>
 								<p class="accordion-body"><a href="ivr-admin/landing-ivr-admin.htm">Interactive Voice Response (IVR)</a></p>
 								<p class="accordion-body"><a href="crm-admins/MSDynamics/landing-crm-admins-MSDynamics.htm">Microsoft Dynamics 365 Plus Adapter</a></p>
@@ -407,7 +417,7 @@
 								<p class="accordion-body"><a href="crm-admins/ServiceNow/landing-crm-admins-ServiceNow.htm">ServiceNOW Plus Adapter</a></p>
 								<p class="accordion-body"><a href="single-sign-on/landing-single-sign-on.htm">Single Sign-On</a></p>
 								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/customer-resources/five9-system-status-portal-guide.pdf" target="_blank" title="Requires login on the legacy Five9 Product Documentation website">System Status</a></p>
-								<p class="accordion-body"><a href="uc-adapters/landing-us-adapters.htm">UC Adapters</a></p>
+								<p class="accordion-body"><a href="uc-adapters/landing-uc-adapters-admin-gd.htm">UC Adapters</a></p>
 			  				<p class="accordion-body"><a href="voicestream-admin-guide/landing-voicestream-admin-guide.htm">VoiceStream Subscriptions</a></p>
 								<p class="accordion-body"><a href="workflow-automation/landing-workflow-automation.htm">Workflow Automation</a></p>
 								<p class="accordion-body"><a href="crm-admins/Zendesk/landing-crm-admins-Zendesk.htm">Zendesk Plus Adapter</a></p>
@@ -418,7 +428,6 @@
 					<div class="col-sm-4">
 						<div class="accordion mt-30 accordion-flush" id="accordionFlushExample">
 							<i class="icon-background-two fa-solid fa-user-group"></i>
-							<!-- <img class="icon-background-two" src="./img/users.svg"> -->
 							<div class="accordion-item">
 								<p class="card-title-two">Supervisors</p>
 							  <h2 class="accordion-header" id="flush-headingTwo">
@@ -439,10 +448,8 @@
 					<div class="col-sm-4 offset-lg-2 offset-sm-0 offset-md-2">
 						<div class="accordion accordion-flush" id="accordionFlushExample">
 							<i class="icon-background-two fa-solid fa-users-between-lines"></i>
-							<!-- <img class="icon-background-two" src="./img/agent.svg"> -->
 							<div class="accordion-item">
 								<p class="card-title-two">Agents</p>
-								
 							  <h2 class="accordion-header" id="flush-headingThree">
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
 								  View Documentation
@@ -467,10 +474,8 @@
 					<div class="col-sm-4">
 						<div class="accordion mt-30 accordion-flush" id="accordionFlushExample">
 							<i class="icon-background-two fa-solid fa-chart-line"></i>
-							<!-- <img class="icon-background-two" src="./img/Code.svg"> -->
 							<div class="accordion-item">
 								<p class="card-title-two">Reporting</p>
-								
 							  <h2 class="accordion-header" id="flush-headingFour">
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
 								  View Documentation
@@ -491,12 +496,11 @@
 				<div class="row padding-top">
 					<div class="col-sm-4 offset-lg-2 offset-sm-0 offset-md-2">
 						<div class="accordion accordion-flush" id="accordionFlushExample">
-							<i class="icon-background-two fa-solid fa-palette"></i>
-							<!-- <img class="icon-background-two" src="./img/CRM.svg"> -->
+							<i class="icon-background-two fa-solid fa-users-between-lines"></i>
 							<div class="accordion-item">
 								<p class="card-title-two">Studio</p>
 							  <h2 class="accordion-header" id="flush-headingFive">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
 								  View Documentation
 								</button>
 							  </h2>
@@ -509,48 +513,41 @@
 					<div class="col-sm-4">
 						<div class="accordion mt-30 accordion-flush" id="accordionFlushExample">
 							<i class="icon-background-two fa-solid fa-chart-line"></i>
-							<!-- <img class="icon-background-two" src="./img/Code.svg"> -->
 							<div class="accordion-item">
-								<p class="card-title-two">Workforce Optimization (Next-Gen DRAFT)</p>
+								<p class="card-title-two">Workforce Optimization (DRAFT)</p>
 							  <h2 class="accordion-header" id="flush-headingSix">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseFour">
 								  View Documentation
 								</button>
 							  </h2>
 							  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-								<p class="accordion-body"><a href="#">Link to PDFs</a></p>
-								<!-- <p class="accordion-body"><a href="wfo/wfo-admin.htm">Administrator Help</a></p> -->
-								<p class="accordion-body"><a href="wfo/wfo-agent.htm">Agent Help</a></p>
-								<!-- <p class="accordion-body"><a href="wfo/wfo-supervisor-evaluator.htm">Supervisor and Evaluator Help</a></p> -->
-							  </div>
-							</div>
-						</div>
-          </div>
-				<div class="row padding-top">
-					<div class="col-sm-4 offset-lg-2 offset-sm-0 offset-md-2">
-						<div class="accordion accordion-flush" id="accordionFlushExample">
-							<i class="icon-background-two fa-solid fa-palette"></i>
-							<!-- <img class="icon-background-two" src="./img/CRM.svg"> -->
-							<div class="accordion-item">
-								<p class="card-title-two">Developers</p>
-							  <h2 class="accordion-header" id="flush-headingSeven">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-								  View Documentation
-								</button>
-							  </h2>
-							  <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/apis/vcc-agent+supervisor-rest-api-reference-guide.pdf" target="_blank">Agent and Supervisor REST APIs</a></p>
-								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/apis/config-webservices-api-reference-guide.pdf" target="_blank">Configuration Web Services</a></p>
-								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/apis/config-webservices-dotnet-reference-guide.pdf" target="_blank">Configuration Web Services for .NET</a></p>
-								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/apis/messaging-rest-api-reference-guide.pdf" target="_blank">Messaging REST API</a></p>
-								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/apis/statistics-webservices-api-reference-guide.pdf" target="_blank">Statistics Web Services</a></p>
-								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/voicestream/voicestream-dev-guide.pdf" target="_blank">VoiceStream Developers</a></p>
-								<p class="accordion-body"><a href="https://webapps.five9.com/assets/files/for_customers/documentation/apis/w2c-developers-guide.pdf" target="_blank">Web2Campaign</a></p>
+								<p class="accordion-body"><a href="wfo/landing-page.htm">Workforce Optimization Help</a></p>
+								<p class="accordion-body"><a href="assets/wfo-pdfs.htm">Link to PDFs</a></p>
 							  </div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				
+				<div class="row padding-top">
+					<div class="col-sm-4 offset-lg-2 offset-sm-0 offset-md-2">
+						<div class="accordion accordion-flush" id="accordionFlushExample">
+							<i class="icon-background-two fa-solid fa-palette"></i>
+							<div class="accordion-item">
+								<p class="card-title-two">Developers</p>
+							  <h2 class="accordion-header" id="flush-headingSeven">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseFive">
+								  View Documentation
+								</button>
+							  </h2>
+							  <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+								<p class="accordion-body"><a href="wfo/landing-page.htm">Workforce Optimization Help</a></p>
+								<p class="accordion-body"><a href="assets/wfo-pdfs.htm">Link to PDFs</a></p>
+							  </div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -578,7 +575,6 @@
 									<input type="hidden" name="entry.2127076247" id="currURL" value="URL" />
 									<input class="submit-form" type="submit" value="Submit" />
 								</fieldset>
-								<p id="feedback-reason" style="display:none">Thank you for your feedback</p>
 							</form>
 						</div>
 					</div>
@@ -591,12 +587,12 @@
 		<div class="container">
 			<footer class="py-3 my-4">
 			  <div class="nav justify-content-center pb-3 mb-3">
-				<p ><a href="assets/copyright.htm" class="px-2 text-muted ft-blue">&copy; 2022 Five9, Inc. All rights reserved.</a> | 
+				<p ><a href="assets/copyright.htm" class="px-2 text-muted ft-blue">&copy; 2023 Five9, Inc. All rights reserved.</a> | 
 					<a href="https://www.five9.com/" target="_blank" class="px-2 text-muted ft-blue">www.five9.com</a> | 
 					<a href="https://www.five9.com/legal" target="_blank" class="px-2 text-muted ft-blue">Privacy Policy</a> |
+					<a href="https://www.five9.com/legal" target="_blank" class="px-2 text-muted">Published</a>
 				</p>
 			</div>
-			  <!-- <p class="text-center text-muted">&copy; 2021 Company, Inc</p> -->
 			</footer>
 		  </div>
 
