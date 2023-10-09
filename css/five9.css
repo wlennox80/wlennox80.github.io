@@ -221,14 +221,14 @@ fieldset{
 	align-content: center;
 }
 .hero-title {
-  font-size: 44px;
+  font-size: 30px;
   font-weight: 500;
   color: white;
   text-align: center;
 }
 
 .hero-text {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   color: white;
@@ -266,6 +266,11 @@ fieldset{
 .form-input:focus{
   box-shadow: none;
   border:none;
+}
+
+.search-padding{
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
 
@@ -465,8 +470,9 @@ img.icon-background-zero {
 .lang-list{
 	float: right;	
 	margin-top: 0px;
-	margin-right: 0px;
-  padding-left: 10px;
+	/* margin-right: 0px;
+  padding-left: 10px; */
+  float: left;
 }
 
 .lang-select{
@@ -498,6 +504,19 @@ img.icon-background-zero {
     margin-top: unset;
   }
 
+  .hero-title{
+    font-size: 40px;
+  }
+
+  .hero-text{
+    font-size: 24px;
+  }
+
+  .search-padding{
+    padding-left: none;
+    padding-right: none;
+  }
+
 }
 
 @media all and (min-width: 992px) {
@@ -519,6 +538,13 @@ img.icon-background-zero {
     box-shadow: 10px 10px 10px #6666;
   }
 
+  .lang-list{
+
+    margin-right: 0px;
+    padding-left: 10px;
+
+  }
+
   .mt-30{
     margin-top: unset
   }
@@ -531,6 +557,11 @@ img.icon-background-zero {
   .card{
     margin-top: unset;
     height: 100% !important;
+  }
+
+  .search-padding{
+    padding-left: none;
+    padding-right: none;
   }
 
 }
@@ -552,4 +583,10 @@ img.icon-background-zero {
     height: 100% !important;
   }
 
+  .search-padding{
+    padding-left: none;
+    padding-right: none;
+  }
+
 }
+
